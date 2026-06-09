@@ -1,19 +1,40 @@
-# data-analysis-using-pd
-done in google collab
-## Phase 4: Feature Importance Hypothesis Notes
+# Employee Attrition Classifier
 
-### Target Variable
-#vote_avg is the target variable since in the end we are trying to predict the cote_aavg which is like an outcome  
+## Objective
 
----
+Predict employee attrition using supervised machine learning.
 
-### My Hypotheses (Ranked from Most Important to Least Important)
+## Dataset
 
-#### 1. Most Critical Predictor: 
-#My Rationale: vote_count and popularity is imp because it determines the popularity of a movie and that is what makes a movie successful
+IBM HR Employee Attrition Dataset
 
-#### 2. Moderate Predictor: 
-#My Rationale: runtime could be a good predictor since people wouldnt prefer to watch a 4 hour movie unless its really popular, while short films like 5 min yt videos could get really popular
+## Workflow
 
-#### 3. Weakest Predictor: 
-#My Rationale: apparently budget and revenue they put into movie doesnt have much importance since that doesnt determine much cuz even a low budget movie could get really popular
+* Exploratory Data Analysis
+* Missing Value Handling
+* Outlier Detection
+* Encoding
+* Scaling
+* Feature Engineering
+* Model Training
+* Model Evaluation
+* Demo Prediction
+
+## Models Used
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* XGBoost
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+
+## Demo
+
+The project includes a prediction function that estimates whether an employee is likely to leave based on selected employee attributes.
